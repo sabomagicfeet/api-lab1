@@ -21,4 +21,6 @@ public class CoffeeController {
     public Coffee coffee(@RequestParam(value = "name", defaultValue = "latte") String name) {
         return new Coffee(counter.incrementAndGet(), name);
     }
+
+    // TODO : Create Insert API
 }
